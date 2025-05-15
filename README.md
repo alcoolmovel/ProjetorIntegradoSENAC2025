@@ -4,8 +4,9 @@ Repositório para armazenar recursos sobre o Projetor Integrado SENAC 2025
 Github do Projeto da Farmácia Online
 ```
 
-Trabalho: Projeto Integrador – 2º Fase | Turma: Centro Universitário SENAC – 05/2025
-- [Farmácia Amiga]()
+Trabalho: Projeto Integrador – 2º Fase - [Farmácia Amiga]() | Turma: Centro Universitário SENAC – 05/2025
+
+Profª Debora Batista Paulo 💻 (https://github.com/profdeborapaulo/profdeborapaulo)
 
 |Integrantes do grupo|
 |------------|
