@@ -57,3 +57,8 @@ explicação simples.
 Essas ideias ajudam a deixar o site mais fácil e confortável de usar. Quem tem mais
 dificuldade com tecnologia vai conseguir comprar seus remédios com mais autonomia
 e segurança. E a farmácia vai mostrar que se preocupa de verdade com as pessoas.
+
+![Imagem do WhatsApp de 2025-05-15 à(s) 12 00 36_687e85af](https://github.com/user-attachments/assets/5c319ec5-6901-4299-99e3-ae3f71c6e88a)
+
+
+
