@@ -59,6 +59,10 @@ Essas ideias ajudam a deixar o site mais fácil e confortável de usar. Quem tem
 dificuldade com tecnologia vai conseguir comprar seus remédios com mais autonomia
 e segurança. E a farmácia vai mostrar que se preocupa de verdade com as pessoas.
 
+|Apresentação do Projeto|
+|---------|
+|<a href="https:////www.youtube.com/" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank"></a>|
+
 ![Imagem do WhatsApp de 2025-05-15 à(s) 12 00 36_687e85af](https://github.com/user-attachments/assets/5c319ec5-6901-4299-99e3-ae3f71c6e88a)
 
 
