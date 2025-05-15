@@ -1,6 +1,7 @@
 # Projetor Integrado SENAC 2025
 ``` 
-Repositório para armazenar recursos sobre o Projetor Integrado SENAC 2025 em Github do Projeto da Farmácia Online
+Repositório para armazenar recursos sobre o Projetor Integrado SENAC 2025
+Github do Projeto da Farmácia Online
 ```
 
 Trabalho: Projeto Integrador – 2º Fase | Turma: Centro Universitário SENAC – 05/2025
