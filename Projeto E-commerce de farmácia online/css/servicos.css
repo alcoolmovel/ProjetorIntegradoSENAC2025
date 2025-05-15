@@ -1,0 +1,111 @@
+:root {
+  --primary-color: #204f7b;       /* Roxo azulado principal */
+  --secondary-color: #007acc;     /* Azul dos botões */
+  --accent-color: #213f66;        /* Azul escuro para textos */
+  --background-light: #f4f9ff;     /* Fundo claro */
+  --text-color: #333;             /* Cor principal do texto */
+  --white: #ffffff;
+  --light-gray: #e9ecef;
+  --border-radius: 10px;          /* Borda arredondada padrão */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  color: var(--text-color);
+  background-color: var(--white);
+  line-height: 1.6;
+  margin: 0;
+}
+
+header {
+  background-color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  height: 7rem;
+}
+
+.logo-imagem {
+  width: 150px;
+  height: auto;
+  object-fit: contain;
+  margin: 0 70px;
+}
+
+header a {
+  text-decoration: none;
+  color: var(--accent-color);
+  font-weight: 500;
+  align-items: right;
+  gap: 5px;
+  font-size: 1.2rem;
+  white-space: nowrap;
+  margin: 0 70px;
+}
+
+.servicos {
+  background-color: var(--primary-color);
+  color: var(--white);
+  text-align: left;
+  border-radius: 15px;
+  margin: 0 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: px;
+  min-height: 200px;
+}
+
+.servicos h1 {
+  font-size: 2.5rem;
+}
+.servicos p {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.servicos-pesquisa {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+  margin: 50px 40px;;
+}
+
+.servicos-pesquisa input {
+  width: 50%;
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  border-radius: var(--border-radius);
+  font-size: 0.9rem;
+}
+
+.servicos-pesquisa a {
+  text-decoration: none;
+  color: var(--white);
+  background-color: var(--secondary-color);
+  padding: 10px 20px;
+  border-radius: var(--border-radius);
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.sevicos-icones {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+  margin: 50px 40px;
+  background-color: #94cff7;
+  border-radius: var(--border-radius);  
+}
