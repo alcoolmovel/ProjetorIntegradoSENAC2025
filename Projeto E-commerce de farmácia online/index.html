@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Farmácia Amiga</title>
+   <link rel="stylesheet" href="index.css"/> <!-- Verifique se há conflitos com style_refatorado.css -->
+  <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style_refatorado.css"/>
+</head>
+
+<body>
+  <div class="container"> <!-- Container principal aberto -->
+
+    <header>
+      <div class="header-left">
+        <img class="logo-imagem" src="assets/images/logos-banners/logo.png" alt="logo-farmacia">
+        <div class="search-header">
+          <input type="text" placeholder="O que você procura?" />
+        </div>
+      </div>
+  
+      <nav>
+        <a href="#" id="menuLink"><i class='bx bx-menu'></i>Menu</a>
+        <span>|</span>
+        <a href="minha-conta-wrapper.html#meus-pedidos"><i class='bx bx-cart'></i> Meus pedidos</a>
+        <span>|</span>
+        <a href="myaccount.html"><i class='bx bxs-user'></i> Perfil</a>
+        <span>|</span>
+        <a href="#" id="loginBtn">Entrar/Cadastrar</a>
+      </nav>
+    </header>
+
+  
+    <div id="menuDropdown" class="menu-dropdown" style="display:none;">
+      <div class="menu-categorias">
+        <ul>
+          <li><a href="#">Medicamentos</a></li>
+          <li><a href="#" style="color:#2196f3;">Saúde e Bem-estar</a></li>
+          <li><a href="#">Mamãe e Bebê</a></li>
+          <li><a href="#">Beleza</a></li>
+          <li><a href="#">Cabelos</a></li>
+          <li><a href="#">Higiene Pessoal</a></li>
+          <li><a href="#">Lojas Parceiras</a></li>
+          <li><a href="servicos.html">Serviços</a></li>
+        </ul>
+      </div>
+
+      <div class="menu-destaques">
+        <ul>
+          <li><strong>DESTAQUES EM SAÚDE E BEM-ESTAR</strong></li>
+          <li><a href="#">Vitamina</a></li>
+          <li><a href="#">Multivitamínicos</a></li>
+          <li><a href="#">Suplementos</a></li>
+          <li><a href="#">Vitamina C</a></li>
+          <li><a href="#">Vitamina D</a></li>
+          <li><a href="#">Ômega 3</a></li>
+          <li><a href="#">Complemento Alimentar</a></li>
+          <li><a href="#">Teste de Gravidez</a></li>
+          <li><a href="#">Aparelhos para Glicemia</a></li>
+          <li><a href="#">Soro Fisiológico</a></li>
+          <li><a href="#">Primeiros Socorros</a></li>
+          <li><a href="#" style="color:#2196f3;">Tudo em Saúde e Bem-estar</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Encontre o melhor preço para sua receita digital</h1>
+        <div class="search-container">
+          <input type="text" placeholder="Digite seu CPF">
+          <button>Encontrar</button>
+        </div>
+        <p>Eu permito a farmácia Digital a encontrar minha receita</p>
+      </div>
+      <div class="hero-image">
+        <img src="assets/images/logos-banners/Banner Farmácia.png" alt="Banner Farmácia">
+      </div>
+    </section>
+
+    <section class="section-info">
+      <h2>Como funciona</h2>
+      <div class="etapas"> <!-- Container para as etapas -->
+          <div class="etapa">
+            <img src="assets/images/interface/Imagem de cesta de compras.png" alt="Pesquisar" />
+            <strong>Pesquise</strong>
+            Escolha os medicamentos e adicione à cesta de compras.
+          </div>
+          <div class="etapa">
+            <img src="assets/images/interface/Menor Preço.png" alt="Preço" />
+            <strong>Menor preço</strong>
+            Nós listamos os melhores preços da sua região.
+          </div>
+          <div class="etapa">
+            <img src="assets/images/interface/Finalize e receba 1.jpg" alt="Receber" />
+            <strong>Finalize e receba</strong>
+            Escolha se quer receber ou retirar o pedido.
+          </div>
+          <div class="etapa">
+            <img src="assets/images/interface/Fale com o atendente.png" alt="Atendente" />
+            <strong>Fale com atendente</strong>
+            Atendimento rápido por chat em tempo real.
+          </div>
+        </div>
+    </section>
+
+    <section class="section-products">
+        <h2>Mais Vendidos</h2>
+        <div class="products-grid">
+            <!-- Card 1 -->
+            <div class="product-card">
+                <img src="assets/images/produtos/Neosaldina1.png" alt="Neosaldina">
+                <h3>NEOSALDINA</h3>
+                <div class="product-price">R$ 50,00</div>
+                <div class="quantidade">
+                    <button>-</button>
+                    <input type="text" value="0" />
+                    <button>+</button>
+                </div>
+                <button class="adicionar">Adicionar</button>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="product-card">
+                <img src="assets/images/produtos/Dorflex.jpg" alt="Dorflex">
+                <h3>DORFLEX</h3>
+                <div class="product-price">R$ 45,00</div>
+                <div class="quantidade">
+                    <button>-</button>
+                    <input type="text" value="0" />
+                    <button>+</button>
+                </div>
+                <button class="adicionar">Adicionar</button>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="product-card">
+                <img src="assets/images/produtos/Engov.png" alt="Engov">
+                <h3>ENGOV</h3>
+                <div class="product-price">R$ 30,00</div>
+                <div class="quantidade">
+                    <button>-</button>
+                    <input type="text" value="0" />
+                    <button>+</button>
+                </div>
+                <button class="adicionar">Adicionar</button>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="product-card">
+                <img src="assets/images/produtos/Dipirona.jpg" alt="Dipirona">
+                <h3>DIPIRONA</h3>
+                <div class="product-price">R$ 40,00</div>
+                <div class="quantidade">
+                    <button>-</button>
+                    <input type="text" value="0" />
+                    <button>+</button>
+                </div>
+                <button class="adicionar">Adicionar</button>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="product-card">
+                <img src="assets/images/produtos/Paracetamol.png" alt="Paracetamol">
+                <h3>PARACETAMOL</h3>
+                <div class="product-price">R$ 20,00</div>
+                <div class="quantidade">
+                    <button>-</button>
+                    <input type="text" value="0" />
+                    <button>+</button>
+                </div>
+                <button class="adicionar">Adicionar</button>
+            </div>
+        </div> <!-- Fim .products-grid -->
+
+        <div class="chat-fixo">
+            <button class="chat-botao">
+                <span class="chat-icone">💬</span>
+                <span class="chat-texto">Chat</span>
+            </button>
+        </div>
+    </section> <!-- Fim .section-products -->
+
+    <!-- ✅ MODAL DE LOGIN (APENAS UM) -->
+    <div id="loginModal" class="modal" style="display:none;">
+      <div class="modal-content">
+        <span class="close">×</span>
+        <h2>Faça seu login</h2>
+        <p>Acesse agora a sua conta para acompanhar seus pedidos, ver suas ofertas exclusivas e muito mais.</p>
+        <button class="email-key-button">🔑 CHAVE ACESSO POR E-MAIL</button>
+        <p>Ou entre com seu e-mail e senha.</p>
+
+        <form>
+          <input type="email" placeholder="Email" required />
+          <input type="password" placeholder="Senha" required />
+          <button type="submit" class="login-button">ENTRAR</button>
+        </form>
+
+        <p><a href="#">Esqueci minha senha</a></p>
+        <p><a href="#">Não possui uma conta? Cadastre-se Agora!</a></p>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content-wrapper">
+            <div class="footer-links">
+                <div class="footer-section cidades">
+                    <strong>Explore por cidades</strong>
+                    <div class="lista-cidades">
+                        <a href="#">Belo Horizonte</a>
+                        <a href="#">São Paulo</a>
+                        <a href="#">Ribeirão Preto</a>
+                        <a href="#">Franca</a>
+                        <a href="#">Divinópolis</a>
+                        <a href="#">Uberlândia</a>
+                    </div>
+                </div>
+
+                <div class="footer-section contato">
+                    <strong>Contato</strong>
+                    <a href="#">Fale conosco</a><br/>
+                    <a href="#">Cadastre sua farmácia</a>
+                </div>
+
+                <div class="footer-section social">
+                    <strong>Social</strong>
+                    <a href="#"><i class='bx bxl-instagram'></i> Instagram</a><br/>
+                    <a href="#"><i class='bx bxl-facebook-square'></i> Facebook</a><br/>
+                    <a href="#"><i class='bx bxl-youtube'></i> YouTube</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p class="copyright">©️ Copyright 2025 - Farmácia Digital. Todos os direitos reservados.</p>
+        </div>
+    </footer> 
+    
+  </div> <!-- Fim .container -->
+
+  <script src="js/modal.js"></script> <!-- APENAS UM SCRIPT -->
+
+</body>
+</html>
